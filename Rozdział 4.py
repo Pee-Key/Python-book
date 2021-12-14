@@ -48,9 +48,3 @@ print("\n")
 # Lista składana (list comprehension)
 numb_squares = [value1**2 for value1 in range(1,11)]
 print(numb_squares)
-
-
-
-
-
-
