@@ -27,7 +27,6 @@ if requested_topping != 'anchois':
 print('\n')
 
 # Porównania liczbowe
-
 answer = 17
 
 if answer != 42:
