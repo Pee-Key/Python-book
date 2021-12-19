@@ -1,5 +1,4 @@
 # Słowniki
-
 alien_0 = {'color':'zielony','points':5}
 
 print(alien_0['color'])
@@ -11,7 +10,6 @@ print(f"\nZdobyłeś {new_points} punktów!")
 print("\n")
 
 # Dodawanie nowej pary klucz-wartość
-
 print(alien_0)
 
 alien_0['x_position'] = 0
@@ -21,7 +19,6 @@ print(alien_0)
 print("\n")
 
 # Rozpoczęcie pracy od pustego słownika
-
 alien_1 = {}
 
 alien_1['color'] = 'zielony'
@@ -32,7 +29,6 @@ print(alien_1)
 print("\n")
 
 # Modyfikowanie wartości słownika
-
 alien_2 = {'color':'zielony'}
 print(f"Obcy ma {alien_2['color']} kolor")
 alien_2['color'] = 'żółty'
@@ -41,7 +37,6 @@ print(f"Obcy ma {alien_2['color']} kolor")
 print("\n")
 
 # Usuwanie pary klucz-wartość
-
 alien_3 = {'color':'zielony', 'points': 5}
 print(alien_3)
 
