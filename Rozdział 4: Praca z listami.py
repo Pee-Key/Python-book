@@ -52,7 +52,6 @@ print(numb_squares)
 print("\n")
 
 # Wycinek lsty
-
 players = ['karol','martyna','michał','florian','ela']
 print(players[1:3])
 print(players[-2:])
@@ -60,7 +59,6 @@ print(players[-2:])
 print('\n')
 
 # Iteracja przez wycinek
-
 print("Oto trzech pierwszysch graczy naszej drużyny:")
 for player in players[:3]:
 	print(player.title())
@@ -68,7 +66,6 @@ for player in players[:3]:
 print('\n')
 
 # Kopiowanie listy
-
 my_food = ['pizza','falafel','cake']
 # friend_food = my_food wskazuje, że f_f jest równa m_f, więc każda zmiana m_f = zmianie f_f
 friend_food = my_food[:]
