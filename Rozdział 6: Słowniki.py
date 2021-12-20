@@ -44,3 +44,22 @@ del alien_3['points']
 print(alien_3)
 
 print("\n")
+
+# Słownik oidibnych obiektów
+fovourite_languages = {
+	'janek':'python',
+	'sara':'c',
+	'edward':'ruby',
+	'paweł':'python'
+	}
+
+language = fovourite_languages	['sara'].title()
+print(f"Ulubiony język programowania Sary to {language}.")
+
+print("\n")
+
+# Używanie netody get() w celu uzyskania dostępu do wartości
+alien_4 = {'color':'zielony', 'speed':'wolno'}
+
+point_value = alien_4.get('points','Brak przypisanych punktów.')
+print(point_value	)
